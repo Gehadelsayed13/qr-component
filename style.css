@@ -1,0 +1,37 @@
+* {
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    min-height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background-color:  hsl(0, 0%, 100%);
+    padding: 16px;
+    border-radius: 20px;
+    max-width: 320px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+.card__img {
+    width: 100%;
+    border-radius: 10px;
+}
+.card__title{
+    color: hsl(218, 44%, 22%);
+    font-size: 20px;
+    margin: 20px 0 10px 0;
+}
+.card__description{
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    margin-bottom: 10px;
+
+}
